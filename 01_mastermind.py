@@ -44,3 +44,16 @@
 # Точнее, в этом случае важен принцип единственной ответственности - https://goo.gl/rYb3hT
 
 # TODO здесь ваш код...
+
+from mastermind_engine import set_number, bc_check
+
+set_number()
+while True:
+    user_num = input('Enter your number: ')
+    if user_num=='':
+        break
+    user_num = int(user_num)
+    bulls = bc_check(user_num)
+    if bulls == 4:
+        break
+print('Game over!')
