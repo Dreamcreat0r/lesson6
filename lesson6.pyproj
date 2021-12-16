@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fbd91f90-c8ef-4d93-9885-1f94bf754a4d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>lesson6.py</StartupFile>
+    <StartupFile>01_mastermind.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="01_mastermind.py" />
     <Compile Include="02_snowfall_module.py" />
     <Compile Include="lesson6.py" />
+    <Compile Include="mastermind_engine.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_snippets\01_namespace.py" />
     <Compile Include="python_snippets\02_scope.py" />
     <Compile Include="python_snippets\03_practice_faqs.py" />
